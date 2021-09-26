@@ -22,7 +22,59 @@ h1 {
   -webkit-font-smoothing: antialiased;
   padding: 20px;
 }
+h2, h3{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /*font-size: 30px;*/
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: rgb(131, 96, 0);
+  -webkit-font-smoothing: antialiased;
+  padding: 20px;
+}
 
 p {
   padding: 20px;
+}
+
+a{
+  color:rgba(255, 255, 255, 0.8);
+}
+
+img {
+  padding: 20px;
+}
+
+.nav-item {
+  padding: 30px !important;
+}
+
+.footer {
+  float: center;
+  width: 100%;
+  height: 120px;
+  background-color: #4a93ff;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.bg-light {
+  background-color: #4a93ff !important;
+}
+
+.nav-link {
+  color:rgba(255, 255, 255, 0.8) !important;
+}
+
+.row {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.col {
+  padding: 10px;
 }
